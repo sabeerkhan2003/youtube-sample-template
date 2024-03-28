@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f00; /* Red color for header */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+form {
+    margin-top: 20px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.results {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.video {
+    width: calc(33.33% - 20px);
+    margin: 10px;
+    background-color: #f9f9f9;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.video img {
+    width: 100%;
+    height: auto;
+}
+
+.video h2 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.video p {
+    margin: 0;
+}
